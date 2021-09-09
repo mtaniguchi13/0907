@@ -1,0 +1,132 @@
+@charset "UTF-8";
+
+@media (max-width:670px ) {
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .header {
+        width: 100%;
+    }
+
+    .nav ul {
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 30px;
+    }
+
+    .nav ul li a {
+        display: block;
+        padding: 10px;
+    }
+
+    .img1 img{
+        display: block;
+        width: 100%;
+        padding: 30px;
+
+
+        
+    }
+
+    .loca {
+        width: 100%;
+        margin: auto;
+    }
+    
+    .flex {
+        display: block;
+    }
+
+    .wra {
+        overflow: hidden;
+    }
+
+    .menu {
+        background-image: url(../img/menu.jpg);
+        margin: 20px 0;
+        background-attachment: fixed;
+        text-align: center;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+
+    .MENU {
+        font-size: 32px;
+    }
+
+    .left {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .right {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .about {
+        background-image: url(../img/about.jpg);
+        margin: 20px 0 50px 0;
+        background-attachment: fixed;
+        text-align: center;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ABOUT {
+        font-size: 32px;
+    }
+    
+    .men {
+        display: inline-block;
+        font-size: 24px;
+        color: black;
+        font-weight: bold;
+        border-bottom: red 4px solid ;
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+
+    .fl {
+        display: block;
+        margin-bottom: 30px;
+    }
+
+    .fl1 {
+        padding: 0;
+    }
+
+    .men2 {
+        margin-bottom: 30px;
+        font-size: 24px;
+    }
+
+    .location {
+        margin: 50px 0 40px 0;
+        height: 100px;
+    }
+
+    .loca {
+        font-size: 32px;
+    }
+
+    .wrapper {
+        width: 90%;
+        margin: auto;
+    }
+
+    footer {
+        text-align: center;
+        margin: 80px 0 10px 0;
+        font-size: 12px;
+    }
+
+}
